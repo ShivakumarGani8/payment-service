@@ -1,4 +1,4 @@
-package com.ecommerce.ProductService.model;
+package com.ecommerce.PaymentService.model;
 
 
 import lombok.AllArgsConstructor;

@@ -1,12 +1,11 @@
-package com.ecommerce.ProductService.service;
+package com.ecommerce.PaymentService.service;
 
-import com.ecommerce.ProductService.entity.TransactionDetails;
-import com.ecommerce.ProductService.model.PaymentRequest;
-import com.ecommerce.ProductService.model.PaymentStatus;
-import com.ecommerce.ProductService.repository.ITransactionDetailsRepository;
+import com.ecommerce.PaymentService.entity.TransactionDetails;
+import com.ecommerce.PaymentService.model.PaymentRequest;
+import com.ecommerce.PaymentService.model.PaymentStatus;
+import com.ecommerce.PaymentService.repository.ITransactionDetailsRepository;
 import jakarta.inject.Inject;
 import lombok.extern.log4j.Log4j2;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;

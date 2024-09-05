@@ -1,4 +1,4 @@
-package com.ecommerce.ProductService.model;
+package com.ecommerce.PaymentService.model;
 
 public enum PaymentMode {
     CASH,

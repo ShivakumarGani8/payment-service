@@ -1,10 +1,9 @@
-package com.ecommerce.ProductService.controller;
+package com.ecommerce.PaymentService.controller;
 
-import com.ecommerce.ProductService.model.PaymentRequest;
-import com.ecommerce.ProductService.service.IPaymentService;
+import com.ecommerce.PaymentService.model.PaymentRequest;
+import com.ecommerce.PaymentService.service.IPaymentService;
 import jakarta.inject.Inject;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

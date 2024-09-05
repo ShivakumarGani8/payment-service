@@ -1,10 +1,9 @@
-package com.ecommerce.ProductService.entity;
+package com.ecommerce.PaymentService.entity;
 
-import com.ecommerce.ProductService.model.PaymentMode;
-import com.ecommerce.ProductService.model.PaymentStatus;
+import com.ecommerce.PaymentService.model.PaymentMode;
+import com.ecommerce.PaymentService.model.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.beans.factory.annotation.Value;
 
 import java.time.Instant;
 
