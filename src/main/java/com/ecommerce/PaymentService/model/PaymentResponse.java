@@ -1,15 +1,11 @@
 package com.ecommerce.PaymentService.model;
 
-
-import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class PaymentRequest {
-    private long orderId;
+@Builder
+public class PaymentResponse {
     private PaymentMode paymentMode;
     private String referenceNumber;
     private double amount;
