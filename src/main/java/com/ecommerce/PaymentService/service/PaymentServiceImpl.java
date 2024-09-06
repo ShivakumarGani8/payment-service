@@ -44,7 +44,7 @@ public class PaymentServiceImpl implements IPaymentService {
         TransactionDetails transactionDetails= transactionDetailsList.stream()
                 .filter(transactions->transactions.getOrderId()==orderId)
                 .findFirst()
-                .orElseThrow(()->new PaymentNotFoundException("Payment not found for order Id",ErrorCode.PAYMENT_NOT_FOUND));
+                .orElseThrow(()->new PaymentNotFoundException("Payment not found for order Id :"+orderId,ErrorCode.PAYMENT_NOT_FOUND));
         PaymentResponse paymentResponse= PaymentResponse.builder()
                 .referenceNumber(transactionDetails.getReferenceNumber())
                 .amount(transactionDetails.getAmount())
